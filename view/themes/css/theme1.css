@@ -1,0 +1,207 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+
+@import url(http://fonts.googleapis.com/css?family=Cedarville+Cursive);
+
+.row h1
+{
+font:normal 4.2em 'Open Sans';
+}
+
+#big
+{
+font:normal 2.2em 'Open Sans';
+-webkit-box-shadow: 0 4px 4px -2px #000000;
+   -moz-box-shadow: 0 4px 4px -2px #000000;
+        box-shadow: 0 4px 4px -2px #000000;
+}
+
+p
+{
+font-family:'Open Sans';
+}
+
+#navbar
+{
+background:#303233;
+-webkit-box-shadow: 0 4px 4px -2px #000000;
+   -moz-box-shadow: 0 4px 4px -2px #000000;
+        box-shadow: 0 4px 4px -2px #000000;
+}
+
+#navbar
+{
+background:#a98;
+}
+
+#nav-body
+{
+background:#a98;
+-webkit-box-shadow: 0 4px 4px -2px #000000;
+   -moz-box-shadow: 0 4px 4px -2px #000000;
+        box-shadow: 0 4px 4px -2px #000000;
+}
+
+#nav-body a
+{
+color:#fff;
+}
+
+#caption
+{
+ background: url('../images/clear_background.png');
+ padding:15px;
+-webkit-border-radius: .5em; 
+-moz-border-radius: .5em;
+border-radius: .5em;
+-webkit-box-shadow: 0 4px 8px rgba(0,0,0,.2);
+-moz-box-shadow: 0 4px 8px rgba(0,0,0,.2);
+box-shadow: 0 4px 8px rgba(0,0,0,.2);
+}
+
+#caption p
+{
+font: normal 1.5em 'Open Sans';
+color:#000;
+//text-shadow: 0 1px 1px rgba(0,0,0,.3);
+
+}
+
+.jumbotron
+{
+ margin-top:30px;
+ text-align:center;
+ background:url('../images/marble3.jpg');
+}
+
+.jumbotron h1
+{
+font: normal 2.0em 'Open Sans';
+font-weight:300;
+color:#000;
+}
+
+ #slider {
+    width: 100%;
+    position:absolute;
+    margin:0 auto;
+    left:0;
+    right:0;
+  }
+  
+  #navbar span
+  {
+  margin-right:5px;
+  }
+  
+  #myCarousel
+  {
+  background:#fff;
+  }
+  
+  #verseContain
+  {
+	padding:5px;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 4px 8px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 4px 8px rgba(0,0,0,.2);
+	box-shadow: 0 4px 8px rgba(0,0,0,.2);
+	border:1px solid #a98;
+	margin-bottom:5px;
+  }
+  
+  .navbar
+  {
+  background:brown;
+  }
+  
+#mobileHeader
+{
+display:none;
+}
+  
+#categoriesMobile
+{
+display:none;
+}
+
+#contactMobile
+{
+display:none;
+}
+
+#findAuthorMobile
+{
+display:none;
+}
+  
+ @media (max-width: 768px) 
+ {
+          #centered
+          {
+          text-align:center;
+          }
+          h2
+          {
+          text-align:center;
+          }
+          #authorImagesMobile
+          {
+          text-align:center;
+          font:normal 1.2em 'Open Sans';
+          }
+ 	  #myCarousel
+ 	  {
+ 	  display:none;
+ 	  }
+ 	  #categoriesDesktop
+ 	  {
+ 	  display:none;
+ 	  }
+ 	  #categoriesMobile
+ 	  {
+ 	  display:block;
+ 	  }
+ 	  #contactDesktop
+ 	  {
+ 	  display:none;
+ 	  }
+ 	  #contactMobile
+ 	  {
+ 	  display:block;
+ 	  text-align:center;
+ 	  }
+ 	  #findAuthorDesktop
+ 	  {
+ 	  display:none;
+ 	  }
+ 	  #findAuthorMobile
+ 	  {
+ 	  display:block;
+ 	  }
+ 	  #mobileHeader
+ 	  {
+ 	  display:block;
+ 	  background: url('../images/clear_background.png');
+ 	  color:#000;
+ 	  padding:10px;
+ 	  border-radius:10px;
+ 	  border:1px solid #A98;
+ 	  font:normal 1.0em 'Open Sans';
+ 	  }
+ 	  #mobileHeader h2
+ 	  {
+ 	  font:bold 1.6em 'Open Sans';
+ 	  }
+ 	  #navbar ul li a
+ 	  {
+ 	  color:#000;
+ 	  }
+ 	  #navbar ul li a:hover
+ 	  {
+ 	  color:#8F8E8C;
+ 	  }
+}
